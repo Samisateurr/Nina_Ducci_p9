@@ -71,6 +71,12 @@ body {
 	width: 100%;
 
 }
+
+img {
+	height:auto ;
+	max-width: 100%;
+}
+
 #about-me {
 	flex: 2
 }
@@ -82,7 +88,6 @@ body {
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
-	font-size: x-large;
 	font-style: italic;
 	width: 60%;
 }
@@ -148,6 +153,10 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: calc(1.375rem + 1.5vw);
+	line-height: 1.2;
+	margin-top: 0;
+  	margin-bottom: 0.5rem;
 
 }
 .quote__author {
