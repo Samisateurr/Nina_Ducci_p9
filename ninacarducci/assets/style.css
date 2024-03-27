@@ -89,11 +89,13 @@ img {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	font-size: x-large;
 	width: 60%;
+	margin-bottom: 5px;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 #gallery {
@@ -363,4 +365,5 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
 
